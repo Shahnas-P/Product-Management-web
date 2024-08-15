@@ -1,0 +1,110 @@
+.container{
+  display: flex;
+  flex-direction:column;
+  justify-items: center;
+  align-items: center;
+}
+.add-product-box{
+  width: 20rem;
+  height: 15rem;
+  display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+.name input{
+  margin-left: 3rem;
+}
+.purchase-price input {
+  margin-left: 2rem;
+}
+.sales-price input{
+  margin-left: 2rem;
+}
+.button{
+  display: flex;
+  justify-content: center;
+}
+.addButton{
+  background-color: lightgreen;
+}
+.viewButton{
+  margin-left: 3rem;
+  background-color: lightskyblue;
+}
+.add-product-box1{
+ text-align: center;
+  border: 1px solid  black;
+  padding: 3px;
+}
+/* ProductList.css */
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd; 
+  padding: 8px; 
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+td {
+  background-color: #ffffff; 
+}
+
+.name-column {
+  width: 30%;
+}
+
+.purchase-price-column {
+  width: 25%; 
+}
+
+.sales-price-column {
+  width: 25%; 
+}
+
+.action-column {
+  width: 20%; 
+}
+.link{
+ text-decoration: none;
+ color: black;
+ width: 5rem;
+ height: 3rem;
+ border: .5px solid lightslategray;
+ padding: .2rem;
+ background-color: lightblue;
+}
+.link:hover{
+  background-color:lightslategray ;
+}
+.product-details-box{
+  margin-top: 6rem;
+  border: 1px solid black;
+  width: 39%;
+  height: 20rem;
+  font-size: larger;
+}
+.product-name{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ padding-left: 2rem;
+ padding-right: 2rem;
+}
+.product-name h1 {
+  color: lightsalmon;
+}
+.product-details-box h4 {
+  padding-left: 3rem;
+}
